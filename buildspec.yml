@@ -1,7 +1,7 @@
 version: 0.2
 env:
   variables:
-    ECR_REPO_NAME: <your elastic container registry repository name>
+    ECR_REPO_NAME: justinb-cicdpipeline-dockerimage
 phases:
   pre_build:
     commands:
