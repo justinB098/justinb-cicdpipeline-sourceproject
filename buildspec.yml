@@ -1,7 +1,7 @@
 version: 0.2
 env:
   variables:
-    ECR_REPO_NAME: ecr-repo01
+    ECR_REPO_NAME: justinb-ecr-repo01
 phases:
   pre_build:
     commands:
