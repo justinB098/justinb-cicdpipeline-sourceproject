@@ -13,5 +13,5 @@ phases:
       - docker build -t justinb-ecr-repo01:latest .
   post_build:
     commands:
-      - docker tag justinb-ecr-repo01:latest:latest ${ECR_IMAGE_URI}
+      - docker tag justinb-ecr-repo01:latest ${ECR_IMAGE_URI}
       - docker push ${ECR_IMAGE_URI}
